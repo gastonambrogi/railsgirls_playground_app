@@ -3,6 +3,7 @@ ports:
     onOpen: open-preview
 tasks:
   - init: >
+      gem update --system && gem install bundler && bundler update --bundler &&
       bundle install --without production &&
       rails db:migrate
     command: >
