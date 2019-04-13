@@ -1,6 +1,6 @@
-# Rails Playground that runs into [Gitpod](http://www.gitpod.io/)
+# Rails skeleton app playground 
 
-# Just Open it in Gitpod :point_down:
+## Just Open it in Gitpod :point_down:
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/railsgirls-argentina/railsgirls_playground_app)
 
 
