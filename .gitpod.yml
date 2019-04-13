@@ -3,11 +3,10 @@ ports:
     onOpen: open-preview
 tasks:
   - init: >
-      gem update --system && gem install bundler && bundler update --bundler && 
       bundle install --without production &&
       rails db:migrate
     command: >
-      rails server
+      gem update --system && gem install bundler && bundler update --bundler && rails server
 github:
     prebuilds:
         pullRequestsFromForks: true
