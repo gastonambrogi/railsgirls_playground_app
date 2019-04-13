@@ -18,4 +18,4 @@ Things you may want to cover:
 
 * Run the app in a local server: `rails server`
 
-# Happy Coding! :rainbow: :octocat:
+# Happy Coding! :rainbow: 
