@@ -1,24 +1,21 @@
-# README
+# Rails Playground that runs into (Gitpod)[http://www.gitpod.io/]
 
+# Just Open it in Gitpod :point_down:
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/railsgirls-argentina/railsgirls_playground_app)
+
+
+# README
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* System dependencies `bundle install`
 
-* System dependencies
+* Database creation `rails db:create` 
 
-* Configuration
+* Database initialization `rails db:migrate`
 
-* Database creation
+* Run the app in a local server: `rails server`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Happy Coding! :rainbow: :octocat:
