@@ -2,11 +2,12 @@ ports:
   - port: 3000
     onOpen: open-preview
 tasks:
-  - before: gem update --system && gem install bundler && bundler update --bundler
+  - before: gem update --system &&
+      gem install bundler &&
+      bundler update --bundler
     init: >
       bundle install --without production &&
-      rails db:migrate
-    command: >
+      rails db:migrate &&
       rails server
 github:
     prebuilds:
